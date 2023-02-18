@@ -1,6 +1,6 @@
-import { login } from './login';
-import { protect } from './protected';
-import { health } from '../services/health';
+import { login } from './login.js';
+import { protect } from './protected.js';
+import { health } from '../services/health.js';
 
 
 export const init = (app) => {
